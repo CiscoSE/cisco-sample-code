@@ -2,10 +2,10 @@
 _License and Code Templates to enable Cisco resources to produce and share Sample Code_
 
 ## Cisco Sample Code License
-This license is free, enables our customers and partners to do everything they need to do with the code, but also provides Cisco the limitations and protections we need in order to keep the policy and process requirements for code sharing as lightweight and streamlined as possible.
+This license is free, enables our customers and partners to do everything they need to do with the code, but also provides Cisco the limitations and protections we need in order to keep the policy and process requirements for sample code sharing as lightweight and streamlined as possible.
 
 ### License
-For all postings* of Sample Code, you must include a copy of the Cisco Sample Code License in a [LICENSE](./LICENSE) text file in the root of the repository.
+For all postings* of Sample Code, you must include a copy of the _Cisco Sample Code License_ in a [LICENSE](./LICENSE) text file in the root of the repository.
 
 _***Note:**  For single-file code sharing (like a GitHub GIST, e-mail, blog, message or post), including the header in the source code is sufficient (you do not have to include the full license text)._
 
