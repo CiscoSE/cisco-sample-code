@@ -14,7 +14,7 @@
  * Code License, Version 1.0 (the "License"). You may obtain a copy of
  * the License at
  *
- *   https://developer.cisco.com/licenses/CISCO-SAMPLE-CODE-LICENSE-V1.0
+ * https://developer.cisco.com/site/licenses/CISCO-SAMPLE-CODE-LICENSE-V1.0
  *
  * All use of the material herein must be in accordance with the terms of
  * the License. All rights not expressly granted by the License are
