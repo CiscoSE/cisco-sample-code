@@ -3,7 +3,7 @@
 Here are the essential elements:
 
 _Required_
- * **The Cisco copyright and license notice [HEADER](./HEADER) text must be included at the top of every source code file** (in a comment, docstring or other appropriate metadata element).
+ * **The Cisco copyright and license notice [HEADER](../HEADER) text must be included at the top of every source code file (in a comment, docstring or other appropriate metadata element).**
 
  * The copyright year in the header should be updated to the current year.
 
