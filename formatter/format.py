@@ -27,12 +27,14 @@ __copyright__ = "Copyright (c) 2018 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.0"
 
 
-from functools import reduce
 import os
+import string
 import textwrap
+from functools import reduce
 from typing import Iterable
 
 import click
+import crayons
 import bs4
 
 
@@ -40,6 +42,7 @@ import bs4
 DEFAULT_ENCODING = 'utf-8'
 DEFAULT_DOCUMENT_WIDTH = 79
 DEFAULT_MARGIN = 0
+CONTEXT_CHARS = 20
 
 
 # Helper Functions
@@ -99,6 +102,11 @@ def fill_lines(text: str, width: int) -> str:
 def rstrip_lines(text: str) -> str:
     """Remove trailing whitespace from each line in the text."""
     return '\n'.join(line.rstrip() for line in text.split('\n'))
+
+
+def end_text_with_single_terminating_newline_character(text: str) -> str:
+    """Ensure the text ends with a single terminating newline character."""
+    return text.rstrip() + '\n'
 
 
 def lines_are_length(lines: [str, Iterable], length: int) -> bool:
@@ -337,7 +345,24 @@ def format_html(input_html: str, document_width: int=DEFAULT_DOCUMENT_WIDTH,
     body = ElementFormatter(parsed_html.body, width)
     document = indent(str(body), left_margin)
     document = rstrip_lines(document)
+    document = end_text_with_single_terminating_newline_character(document)
     return document
+
+
+def ascii_check(text: str):
+    """Checks text for non-ASCII characters and displays them if found."""
+    valid_chars = set(string.printable)
+    for index, char in enumerate(text):
+        if char not in valid_chars:
+            print(
+                '{message} "{pre}{char}{post}"'.format(
+                    message=crayons.red('Non-ASCII / Non-Printable '
+                                        'Character:'),
+                    pre=text[index-CONTEXT_CHARS : index],
+                    char=crayons.red(char, bold=True),
+                    post=text[index+1 : index+CONTEXT_CHARS+1],
+                )
+            )
 
 
 @click.command()
@@ -347,8 +372,13 @@ def format_html(input_html: str, document_width: int=DEFAULT_DOCUMENT_WIDTH,
 @click.option('-m', '--margin', default=DEFAULT_MARGIN)
 @click.option('-l', '--left-margin', type=int)
 @click.option('-r', '--right-margin', type=int)
+@click.option(
+    '--ascii/--no-check',
+    default=False,
+    help="Checks text for non-ASCII characters and displays them if found."
+)
 def main(input_file, output_file, document_width, margin, left_margin,
-         right_margin):
+         right_margin, ascii):
     """Convert a basically formatted HTML file into a formated text file."""
     left_margin = left_margin or margin
     right_margin = right_margin or margin
@@ -361,6 +391,9 @@ def main(input_file, output_file, document_width, margin, left_margin,
         left_margin=left_margin,
         right_margin=right_margin,
     )
+
+    if ascii:
+        ascii_check(formatted_text)
 
     output_file = output_file or create_output_file_path(input_file)
     write_output_file(output_file, formatted_text)

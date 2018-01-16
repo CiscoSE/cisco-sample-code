@@ -15,9 +15,9 @@ update : Pipfile
 	pipenv run versioneer install
 
 license : Pipfile format.py ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-V1.0.html
-	pipenv run ./format.py -m 3 ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-V1.0.html
+	pipenv run ./format.py -m 3 --ascii ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-V1.0.html
 	cp ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-V1.0.txt ../LICENSE
 
 header : Pipfile format.py ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-HEADER-V1.0.html
-	pipenv run ./format.py -w 72 ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-HEADER-V1.0.html
+	pipenv run ./format.py -w 72 --ascii ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-HEADER-V1.0.html
 	cp ../cisco-sample-code-license/v1.0/CISCO-SAMPLE-CODE-LICENSE-HEADER-V1.0.txt ../HEADER

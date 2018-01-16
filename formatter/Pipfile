@@ -9,6 +9,7 @@ name = "pypi"
 
 "beautifulsoup4" = "*"
 click = "*"
+crayons = "*"
 
 
 [dev-packages]
