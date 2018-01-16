@@ -4,7 +4,7 @@
 
    These terms govern this Cisco example or demo source code and its
    associated documentation (together, the "Sample Code"). By downloading,
-   copying, modifying, compiling, or redistributing the Sample Code, you
+   copying, modifying, compiling, or redistributing the Sample Code, you
    accept and agree to be bound by the following terms and conditions (the
    "License"). If you are accepting the License on behalf of an entity, you
    represent that you have the authority to do so (either you or the entity,
