@@ -11,5 +11,10 @@ This license is free, enables our customers and partners to do everything they n
 _*Note:  For single-file code sharing (like a GitHub GIST, e-mail, blog, message or post), including the header in the source code is sufficient (you do not have to include the full license text)._
 
 
-## Templates
-To make getting started as simple as possible, we have provided some language and use-specific [Templates](./templates).
+## Examples
+To make getting started as simple as possible, we have provided some language and use-specific [examples](./examples).
+
+## Templates _-Coming Soon!_
+We are working to provide some project-stem templates (like [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)) using the new Cisco Sample Code License and the [cookiecutter](https://github.com/audreyr/cookiecutter).
+
+If you would like to help in this effort, please contact chrlunsf@cisco.com.

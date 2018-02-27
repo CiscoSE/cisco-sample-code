@@ -1,4 +1,4 @@
-# Don't see a Template for your language or use?
+# Don't see an Example for your language or use?
 
 Here are the essential elements:
 
@@ -25,4 +25,4 @@ _Optional but Recommended_
 
 ---
 
- If you create a Template for a language or use case that we haven't included here and you feel it would help others, please submit a pull request with the additional template.
+ If you create an example for a language or use case that we haven't included here and you feel it would help others, please submit a pull request with the additional example.
