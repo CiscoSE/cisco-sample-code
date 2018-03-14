@@ -1,4 +1,6 @@
-# Notes | JavaScript Template for Cisco Sample Code
+# JavaScript Example
+_JavaScript example script showing proper use of the Cisco Sample Code header._
+
 
 This template is based on the commenting an metadata practices used by [JSDoc](http://usejsdoc.org/).
 

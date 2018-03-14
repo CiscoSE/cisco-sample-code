@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Python Template for Cisco Sample Code.
+"""Python example script showing proper use of the Cisco Sample Code header.
 
 Copyright (c) {{current_year}} Cisco and/or its affiliates.
 
@@ -19,7 +19,9 @@ or implied.
 
 """
 
-# from __future__ import absolute_import, division, print_function
+
+from __future__ import absolute_import, division, print_function
+
 
 __author__ = "Zaphod Beeblebrox <zaphodbe@cisco.com>"
 __contributors__ = [
@@ -32,3 +34,15 @@ __license__ = "Cisco Sample Code License, Version 1.0"
 
 
 # Your code goes here.
+indent = 4
+print(
+    __doc__,
+    "Author:",
+    " " * indent + __author__,
+    "Contributors:",
+    "\n".join([" " * indent + name for name in __contributors__]),
+    "",
+    __copyright__,
+    "Licensed Under: " + __license__,
+    sep="\n"
+)

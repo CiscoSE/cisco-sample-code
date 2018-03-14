@@ -1,4 +1,4 @@
-# Don't see an Example for your language or use?
+# Don't see an example for your language or use case?
 
 Here are the essential elements:
 

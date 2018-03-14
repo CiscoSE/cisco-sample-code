@@ -1,4 +1,5 @@
-# Notes | Python Template for Cisco Sample Code
+# Python Example
+_Python example script showing proper use of the Cisco Sample Code header._
 
 ## Shebang Line
 ``` python
@@ -47,7 +48,7 @@ The module or script docstring **must contain the Cisco copyright and license no
 
 ## Module | Script Metadata (aka. "Dunders")
 ``` python
-# from __future__ import absolute_import, division, print_function
+from __future__ import absolute_import, division, print_function
 
 __author__ = "Zaphod Beeblebrox <zaphodbe@cisco.com>"
 __contributors__ = [

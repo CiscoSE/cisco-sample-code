@@ -1,5 +1,5 @@
 /**
- * JavaScript Template for Cisco Sample Code.
+ * JavaScript example showing proper use of the Cisco Sample Code header.
  * @module myModule
  * @author Zaphod Beeblebrox <zaphodbe@cisco.com>
  * @copyright Copyright (c) {{current_year}} Cisco and/or its affiliates.
