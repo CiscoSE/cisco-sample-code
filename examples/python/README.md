@@ -1,18 +1,21 @@
 # Python Example
+
 _Python example script showing proper use of the Cisco Sample Code header._
 
 ## Shebang Line
-``` python
+
+```python
 #!/usr/bin/env python
 ```
 
-A "shebang" (`#!`) line, if used (executable Python file), should be the first line in the Python script and should reference the interpreter that will be used to execute the script.  This can also be a good way to indicate what Python version a file has been written to support.
+A "shebang" (`#!`) line, if used (only for executable Python scripts), should be the first line in the Python script and should reference the interpreter that will be used to execute the script.  This can also be a good way to indicate what Python version a file has been written to support.
   * `python` - Python v2 or v3
   * `python2` - Python v2
   * `python3` - Python v3
 
 ## Source File Encoding
-``` python
+
+```python
 # -*- coding: utf-8 -*-
 ```
 
@@ -22,7 +25,8 @@ The source file encoding declaration (if present), "must be placed into the sour
 
 
 ## Module | Script Docstring
-``` python
+
+```python
 """Python Template for Cisco Sample Code.
 
 Copyright (c) {{current_year}} Cisco and/or its affiliates.
@@ -47,7 +51,8 @@ The module or script docstring **must contain the Cisco copyright and license no
 
 
 ## Module | Script Metadata (aka. "Dunders")
-``` python
+
+```python
 from __future__ import absolute_import, division, print_function
 
 __author__ = "Zaphod Beeblebrox <zaphodbe@cisco.com>"
@@ -63,7 +68,8 @@ __license__ = "Cisco Sample Code License, Version 1.0"
 "Module level "dunders" (i.e. names with two leading and two trailing underscores) such as `__all__`, `__author__`, `__version__`, etc. should be placed after the module docstring but before any import statements except from `__future__` imports. Python mandates that future-imports must appear in the module before any other code except docstrings" ([PEP8](https://www.python.org/dev/peps/pep-0008/#module-level-dunder-names)).
 
 ## Your Code
-``` python
+
+```python
 # Your code goes here.
 ```
 
