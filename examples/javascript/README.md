@@ -1,4 +1,5 @@
 # JavaScript Example
+
 _JavaScript example script showing proper use of the Cisco Sample Code header._
 
 
@@ -6,7 +7,8 @@ This template is based on the commenting an metadata practices used by [JSDoc](h
 
 
 ## Script | Module Docstring & Metadata
-``` JavaScript
+
+```javascript
 /**
  * JavaScript Template for Cisco Sample Code.
  * @module myModule
@@ -15,10 +17,12 @@ This template is based on the commenting an metadata practices used by [JSDoc](h
  * @license Cisco Sample Code License, Version 1.0
  */
 ```
+
 May contain a useage message, project metadata, module-level documentation and etc. (see [@use JSDoc](http://usejsdoc.org) for more information).
 
 ## Copyright and License Notice
-``` JavaScript
+
+```javascript
 /**
  * @license
  * Copyright (c) {{current_year}} Cisco and/or its affiliates.
@@ -42,7 +46,8 @@ May contain a useage message, project metadata, module-level documentation and e
 
 
 ## Your Code
-``` JavaScript
+
+```javascript
 // Your code goes here.
 ```
 
