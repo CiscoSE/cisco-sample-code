@@ -12,7 +12,7 @@ This template is based on the commenting an metadata practices used by [JSDoc](h
 /**
  * JavaScript Template for Cisco Sample Code.
  * @module myModule
- * @author Zaphod Beeblebrox <zaphodbe@cisco.com>
+ * @author Zaphod Beeblebrox (zaphodbe@cisco.com)
  * @copyright Copyright (c) <current year> Cisco and/or its affiliates.
  * @license Cisco Sample Code License, Version 1.0
  */

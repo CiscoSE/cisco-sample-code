@@ -9,9 +9,10 @@ _Python example script showing proper use of the Cisco Sample Code header._
 ```
 
 A "shebang" (`#!`) line, if used (only for executable Python scripts), should be the first line in the Python script and should reference the interpreter that will be used to execute the script.  This can also be a good way to indicate what Python version a file has been written to support.
-  * `python` - Python v2 or v3
-  * `python2` - Python v2
-  * `python3` - Python v3
+
+* `python` - Python v2 or v3
+* `python2` - Python v2
+* `python3` - Python v3
 
 ## Source File Encoding
 
@@ -55,11 +56,11 @@ The module or script docstring **must contain the Cisco copyright and license no
 ```python
 from __future__ import absolute_import, division, print_function
 
-__author__ = "Zaphod Beeblebrox <zaphodbe@cisco.com>"
+__author__ = "Zaphod Beeblebrox (zaphodbe@cisco.com)"
 __contributors__ = [
-    "Arthur Dent <arthurde@cisco.com>",
-    "Ford Prefect <fordpref@cisco.com>",
-    "Slartibartfast <slartiba@cisco.com>",
+    "Arthur Dent (arthurde@cisco.com)",
+    "Ford Prefect (fordpref@cisco.com)",
+    "Slartibartfast (slartiba@cisco.com)",
 ]
 __copyright__ = "Copyright (c) <current year> Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.0"
