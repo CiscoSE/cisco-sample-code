@@ -8,7 +8,7 @@ This license is free, enables our customers and partners to do everything they n
 
 **License:**  For all Sample Code postings*, you must include a copy of the _Cisco Sample Code License_ in a [LICENSE](./LICENSE) text file in the root of the repository.
 
-**Header:**  You must include the Cisco copyright and license notice [HEADER](./HEADER) in _every source code file_ (see the [Templates](./templates) folder for language specific examples of how this should be done).
+**Header:**  You must include the Cisco copyright and license notice [HEADER](./HEADER) in _every source code file_ (see the [examples](./examples) folder for language specific examples of how this should be done).
 
 _*Note:  For single-file code sharing (like a GitHub GIST, e-mail, blog, message or post), including the header in the source code is sufficient (you do not have to include the full license text)._
 

@@ -1,3 +1,3 @@
 This project, and the code contained herein, are provided for example and/or demonstration purposes by Cisco for use by our partners and customers in working with Cisco's products and services. While Cisco's customers and partners are free to use this code pursuant to the terms set forth in the LICENSE associated with this project, this is not an Open Source project as we are not seeking to build a community around this project and its capabilities.
 
-This does not mean that Pull Requests will not be reviewed or accepted.  We just want to ensure you are aware of our intent with regard to the this project.
+This does not mean that Pull Requests will not be reviewed or accepted.  We just want to ensure you are aware of our intent with regard to this project.
