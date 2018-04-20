@@ -16,10 +16,10 @@
 # IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
 # or implied.
 #
-# AUTHOR(s): Zaphod Beeblebrox (zaphodbe@cisco.com)
-# CONTRIBUTOR(s): Arthur Dent (arthurde@cisco.com)
-#                 Ford Prefect (fordpref@cisco.com)
-#                 Slartibartfast (slartiba@cisco.com)
+# AUTHOR(s): Zaphod Beeblebrox <zaphodbe@cisco.com>
+# CONTRIBUTOR(s): Arthur Dent <arthurde@cisco.com>
+#                 Ford Prefect <fordpref@cisco.com>
+#                 Slartibartfast <slartiba@cisco.com>
 
 
 # Your code goes here.

@@ -30,10 +30,10 @@ The "shebang" (`#!`) line should be the first line in the shell script and shoul
 # IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
 # or implied.
 #
-# AUTHOR(s): Zaphod Beeblebrox (zaphodbe@cisco.com)
-# CONTRIBUTOR(s): Arthur Dent (arthurde@cisco.com)
-#                 Ford Prefect (fordpref@cisco.com)
-#                 Slartibartfast (slartiba@cisco.com)
+# AUTHOR(s): Zaphod Beeblebrox <zaphodbe@cisco.com>
+# CONTRIBUTOR(s): Arthur Dent <arthurde@cisco.com>
+#                 Ford Prefect <fordpref@cisco.com>
+#                 Slartibartfast <slartiba@cisco.com>
 ```
 
 The script header **must contain the Cisco copyright and license notice** and may also contain a usage message and/or other script-level documentation for your file.

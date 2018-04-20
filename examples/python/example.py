@@ -23,11 +23,11 @@ or implied.
 from __future__ import absolute_import, division, print_function
 
 
-__author__ = "Zaphod Beeblebrox (zaphodbe@cisco.com)"
+__author__ = "Zaphod Beeblebrox <zaphodbe@cisco.com>"
 __contributors__ = [
-    "Arthur Dent (arthurde@cisco.com)",
-    "Ford Prefect (fordpref@cisco.com)",
-    "Slartibartfast (slartiba@cisco.com)",
+    "Arthur Dent <arthurde@cisco.com>",
+    "Ford Prefect <fordpref@cisco.com>",
+    "Slartibartfast <slartiba@cisco.com>",
 ]
 __copyright__ = "Copyright (c) {{current_year}} Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.0"
