@@ -10,7 +10,7 @@ This license is free, enables our customers and partners to do everything they n
 
 **Header:**  You must include the Cisco copyright and license notice [HEADER](./HEADER) in _every source code file_ (see the [examples](./examples) folder for language specific examples of how this should be done).
 
-_*Note:  For single-file code sharing (like a GitHub GIST, e-mail, blog, message or post), including the header in the source code is sufficient (you do not have to include the full license text)._
+> **Note:**  For single-file code sharing (like a GitHub GIST, e-mail, blog, message or post), including the header in the source code is sufficient (you do not have to include the full license text).
 
 
 ## Examples
