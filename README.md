@@ -24,4 +24,9 @@ We have also provided examples for some common project [docs](./docs) (README, C
 
 
 ## Project Templates
- _**Coming Soon:**_  We are working to provide some project-stem templates (like [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)) using the new Cisco Sample Code License and the [cookiecutter](https://github.com/audreyr/cookiecutter) tool.
+
+Get your Cisco Sample Code project started right and fast with one of these [Cookiecutter](https://github.com/audreyr/cookiecutter) project templates!
+
+- [cc-cisco-sample-code](https://github.com/CiscoSE/cc-cisco-sample-code/blob/master/README.md) - Language-agnostic Cookiecutter template for Cisco Sample Code projects.
+- [cc-pythonscript](https://github.com/CiscoSE/cc-pyscript) - Cookiecutter template for a Python Script.
+- [cc-pypackage](https://github.com/CiscoSE/cc-pypackage) - Cookciecutter template for a Python Package.
