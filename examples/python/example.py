@@ -5,7 +5,7 @@
 Copyright (c) {{current_year}} Cisco and/or its affiliates.
 
 This software is licensed to you under the terms of the Cisco Sample
-Code License, Version 1.0 (the "License"). You may obtain a copy of the
+Code License, Version 1.1 (the "License"). You may obtain a copy of the
 License at
 
                https://developer.cisco.com/docs/licenses
@@ -30,7 +30,7 @@ __contributors__ = [
     "Slartibartfast <slartiba@cisco.com>",
 ]
 __copyright__ = "Copyright (c) {{current_year}} Cisco and/or its affiliates."
-__license__ = "Cisco Sample Code License, Version 1.0"
+__license__ = "Cisco Sample Code License, Version 1.1"
 
 
 # Your code goes here.

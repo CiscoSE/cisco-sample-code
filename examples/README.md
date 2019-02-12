@@ -19,7 +19,7 @@ _Optional but Recommended_
 
    * _Maintainers_ - If different from the author and contributors, the names and e-mail addresses of the individuals who maintain the sample code.
 
-   * _License_ - If a license metadata field is available, please include the license name:  `Cisco Sample Code License, Version 1.0`
+   * _License_ - If a license metadata field is available, please include the license name:  `Cisco Sample Code License, Version 1.1`
 
    * _Copyright_ - If a copyright metadata field is available, please include the copyright notice:  `Copyright (c) <current year> Cisco and/or its affiliates.`
 

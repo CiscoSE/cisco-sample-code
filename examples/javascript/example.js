@@ -3,7 +3,7 @@
  * @module myModule
  * @author Zaphod Beeblebrox <zaphodbe@cisco.com>
  * @copyright Copyright (c) {{current_year}} Cisco and/or its affiliates.
- * @license Cisco Sample Code License, Version 1.0
+ * @license Cisco Sample Code License, Version 1.1
  */
 
 /**
@@ -11,7 +11,7 @@
  * Copyright (c) {{current_year}} Cisco and/or its affiliates.
  *
  * This software is licensed to you under the terms of the Cisco Sample
- * Code License, Version 1.0 (the "License"). You may obtain a copy of the
+ * Code License, Version 1.1 (the "License"). You may obtain a copy of the
  * License at
  *
  *                https://developer.cisco.com/docs/licenses

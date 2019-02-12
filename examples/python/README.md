@@ -32,7 +32,7 @@ The source file encoding declaration (if present), "must be placed into the sour
 Copyright (c) {{current_year}} Cisco and/or its affiliates.
 
 This software is licensed to you under the terms of the Cisco Sample
-Code License, Version 1.0 (the "License"). You may obtain a copy of the
+Code License, Version 1.1 (the "License"). You may obtain a copy of the
 License at
 
                https://developer.cisco.com/docs/licenses
@@ -62,7 +62,7 @@ __contributors__ = [
     "Slartibartfast <slartiba@cisco.com>",
 ]
 __copyright__ = "Copyright (c) <current year> Cisco and/or its affiliates."
-__license__ = "Cisco Sample Code License, Version 1.0"
+__license__ = "Cisco Sample Code License, Version 1.1"
 ```
 
 "Module level "dunders" (i.e. names with two leading and two trailing underscores) such as `__all__`, `__author__`, `__version__`, etc. should be placed after the module docstring but before any import statements except from `__future__` imports. Python mandates that future-imports must appear in the module before any other code except docstrings" ([PEP8](https://www.python.org/dev/peps/pep-0008/#module-level-dunder-names)).
