@@ -5,7 +5,7 @@
 Copyright (c) 2018 Cisco and/or its affiliates.
 
 This software is licensed to you under the terms of the Cisco Sample
-Code License, Version 1.0 (the "License"). You may obtain a copy of the
+Code License, Version 1.1 (the "License"). You may obtain a copy of the
 License at
 
                https://developer.cisco.com/docs/licenses
@@ -24,7 +24,7 @@ or implied.
 __author__ = "Chris Lunsford"
 __author_email__ = "chrlunsf@cisco.com"
 __copyright__ = "Copyright (c) 2018 Cisco and/or its affiliates."
-__license__ = "Cisco Sample Code License, Version 1.0"
+__license__ = "Cisco Sample Code License, Version 1.1"
 
 
 import os
